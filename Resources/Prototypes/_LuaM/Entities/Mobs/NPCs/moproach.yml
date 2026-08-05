@@ -21,7 +21,7 @@
       45: Critical
       65: Dead
   - type: MovementSpeedModifier
-    baseRunningSpeed : 5 # extra speed for that moppin'!
+    baseWalkSpeed : 5 # extra speed for that moppin'!
   - type: HTN
     rootTask:
       task: MoproachCompound
