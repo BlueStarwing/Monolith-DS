@@ -3,6 +3,9 @@
   id: AnomalyCore
 
 - type: Tag 
+  id: CrateBluespaceElectronics
+
+- type: Tag 
   id: DatadiskEncrypted
 
 - type: Tag 
