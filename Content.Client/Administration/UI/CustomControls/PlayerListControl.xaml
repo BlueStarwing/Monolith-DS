@@ -2,7 +2,7 @@
               xmlns:controls="using:Content.Client.UserInterface.Controls"
               Orientation="Vertical">
     <Control MinSize="0 5" />
-    <!-- LuaM-start: expose controls for context-specific admin UI styling. -->
+    <!-- LuaM-changes: added Access="Public" -->
     <LineEdit Name="FilterLineEdit"
               Access="Public"
               MinSize="100 0"
@@ -18,5 +18,4 @@
                   Group="True"
                   MinSize="100 0"/>
     </PanelContainer>
-    <!-- LuaM-end -->
 </BoxContainer>
