@@ -85,9 +85,11 @@
   - type: EmitSoundOnLand
     sound:
       collection: PistolsDrop
+  - type: Multishot
+    missChance: 0.4
+    spreadMultiplier: 2
+    spreadAddition: 40
   # Goobstation edit end
-  - type: Multishot # Goobstation
-    spreadMultiplier: 1.25
 
 - type: entity
   name: LWC PT-45A viper (9x19mm)

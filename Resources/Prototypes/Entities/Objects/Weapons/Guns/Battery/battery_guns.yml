@@ -31,6 +31,10 @@
   - type: SurgeryTool # Shitmed
     endSound:
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  - type: Multishot # Goobstation V
+    missChance: 0.4
+    spreadMultiplier: 3
+    spreadAddition: 40
   - type: ItemTax # Mono
     taxAccounts:
       nfsd: 0.3
@@ -132,6 +136,10 @@
     quickEquip: false
     slots:
     - Belt
+  - type: Multishot # Goobstation V
+    missChance: 0.4
+    spreadMultiplier: 2
+    spreadAddition: 40
 
 - type: entity
   name: svalinn laser pistol
@@ -163,7 +171,6 @@
     zeroVisible: true
   - type: StaticPrice # Mono
     price: 200
-  - type: Multishot # Goobstation
 
 - type: entity
   name: retro laser blaster
@@ -189,8 +196,6 @@
   - type: Appearance
   - type: StaticPrice
     price: 190
-  - type: Multishot # Goobstation
-    spreadAddition: 10
 
 - type: entity
   name: makeshift laser pistol
@@ -219,8 +224,6 @@
   - type: Battery
     maxCharge: 500
     startingCharge: 500
-  - type: Multishot # Goobstation
-    spreadAddition: 10
 
 - type: entity
   name: tesla gun
@@ -343,7 +346,6 @@
     autoRechargePause: true
     autoRechargePauseTime: 30
   # End Mono
-  - type: Multishot # Goobstation
 
 - type: entity
   name: LWC pulse carbine
@@ -770,7 +772,6 @@
     # not putting a BlockMovement component here cause that's funny.
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
-  - type: Multishot # Goobstation
 
 - type: entity
   name: advanced laser pistol
@@ -808,8 +809,6 @@
     tags:
     - AdvancedLaserPistol
     - Sidearm
-  - type: Multishot # Goobstation
-    spreadAddition: 10
 
 - type: entity
   name: C.H.I.M.P. handcannon
@@ -856,7 +855,6 @@
     node: start
   - type: StaticPrice
     price: 100
-  - type: Multishot # Goobstation
   - type: Tag # LuaM
     tags:
     - ScienceDevice
