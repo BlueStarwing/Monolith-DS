@@ -76,6 +76,8 @@
     sound:
       collection: SMGDrop
   # Goobstation edit end
+  - type: Multishot # Goobstation
+    spreadMultiplier: 1.4
 
 # Mono - moved Drozd, C-20, & Atreides to _Mono.
 
