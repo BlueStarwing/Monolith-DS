@@ -1,6 +1,7 @@
 - type: job
   id: NordDeadsquad
   name: ghost-role-information-NordDS-ftl-name
+  playTimeTracker: JobNordDeadsquad
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 108000 # 30 hours
@@ -29,3 +30,6 @@
     - Freespeak
     languagesUnderstood:
     - Freespeak
+
+- type: playTimeTracker
+  id: JobNordDeadsquad
