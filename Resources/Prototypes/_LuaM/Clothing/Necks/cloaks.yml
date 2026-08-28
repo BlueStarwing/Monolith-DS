@@ -5,7 +5,7 @@
   description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
   components:
   - type: Sprite
-    sprite: _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-base.rsi
+    sprite: _LuaM/Clothing/Necks/AkiPlash/AkiPlash-base.rsi
     requiredSlot:
     - neck
     slot: head
@@ -20,7 +20,7 @@
   description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
   components:
   - type: Sprite
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-red.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-red.rsi
     requiredSlot:
     - neck
     slot: head
@@ -35,7 +35,7 @@
   description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
   components:
   - type: Sprite
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-hoscloakforma.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-hoscloakforma.rsi
     requiredSlot:
     - neck
     slot: head
@@ -50,7 +50,7 @@
   description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
   components:
   - type: Sprite
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-black.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-black.rsi
     requiredSlot:
     - neck
     slot: head
@@ -65,7 +65,7 @@
   description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
   components:
   - type: Sprite
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-white.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-white.rsi
     requiredSlot:
     - neck
     slot: head
@@ -82,7 +82,7 @@
   suffix: Проба
   components:
   - type: Sprite
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-base.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/AkiPlash-base.rsi
   - type: ToggleableClothing         
     clothingPrototypes:              
       head: ClothingHeadHatHoodBlueStar 
@@ -101,10 +101,9 @@
   id: ClothingHeadHatHoodBlueStar
   categories: [ HideSpawnMenu ]
   name: Капюшон Синей Звезды
-  description:
-  description: Достаточно тёплый капюшон что прикрывает ваш взгляд..но в полне даёт видеть
+  description: Достаточно тёплый капюшон что прикрывает ваш взгляд..но в полне даёт видеть.
   components:
   - type: Sprite
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-helmet.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/AkiPlash-helmet.rsi
   - type: Clothing
-    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-helmet.rsi
+    sprite:  _LuaM/Clothing/Necks/AkiPlash/AkiPlash-helmet.rsi
