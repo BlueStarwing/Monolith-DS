@@ -33,6 +33,17 @@
 
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckCloakMarsh
+  name: marshal's cloak
+  description: An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
+  components:
+  - type: Sprite
+    sprite: _Corvax/Forge/Clothing/Neck/Cloaks/hos.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckCloakCe
   name: chief engineer's cloak
   description: A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.

@@ -1,0 +1,110 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueStar
+  name: Плащ голубой звезды.
+  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  components:
+  - type: Sprite
+    sprite: _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-base.rsi
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueStarRed
+  name: Плащ багровой звезды.
+  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  components:
+  - type: Sprite
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-red.rsi
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueStarHoscloack
+  name: Наплечный Плащ Голубой Звезды.
+  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  components:
+  - type: Sprite
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-hoscloakforma.rsi
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueStarBlack
+  name: Плащ тёмной звезды.
+  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  components:
+  - type: Sprite
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-black.rsi
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueStarWhite
+  name: Плащ полярной звезды.
+  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  components:
+  - type: Sprite
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/Akiplash-white.rsi
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+#Проба Только через спавн
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueStarPROBA
+  name: Плащ голубой звезды.
+  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  suffix: Проба
+  components:
+  - type: Sprite
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-base.rsi
+  - type: ToggleableClothing         
+    clothingPrototypes:              
+      head: ClothingHeadHatHoodBlueStar 
+    requiredSlot:                     
+    - neck                            
+  - type: UserInterface               
+    interfaces:                        
+      enum.ToggleClothingUiKey.Key:    
+        type: ToggleableClothingBoundUserInterface  
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}  
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodBlueStar
+  categories: [ HideSpawnMenu ]
+  name: Капюшон Синей Звезды
+  description:
+  description: Достаточно тёплый капюшон что прикрывает ваш взгляд..но в полне даёт видеть
+  components:
+  - type: Sprite
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-helmet.rsi
+  - type: Clothing
+    sprite:  _LuaM/Clothing/Necks/AkiPlash.rsi/AkiPlash-helmet.rsi
