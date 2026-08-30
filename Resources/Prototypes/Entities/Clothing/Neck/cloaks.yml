@@ -31,7 +31,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
 
-- type: entity
+- type: entity #LuaM Corvax port
   parent: ClothingNeckBase
   id: ClothingNeckCloakMarsh
   name: marshal's cloak
