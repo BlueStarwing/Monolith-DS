@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakTTIParamedicAlt
-  name: Плащ Парамедика TTI
-  description: Уютный плащ для проведения спасательных операций. Точно не демаскирует вас кучей стробоскопов.
+  name: TTI Paramedic's Cape # LuaM: Плащ Парамедика TTI > TTI Paramedic's Cape
+  description: A cozy cloak for conducting rescue operations. It definitely won’t give away your location with a bunch of strobe lights. # LuaM: Уютный плащ для проведения спасательных операций. Точно не демаскирует вас кучей стробоскопов. > A cozy cloak for conducting rescue operations. It definitely won’t give away your location with a bunch of strobe lights.
   components:
   - type: Item
     size: Small
