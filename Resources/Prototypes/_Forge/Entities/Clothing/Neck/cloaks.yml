@@ -92,7 +92,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakRenegade
   name: renegade cloak
-  suffix: Ренегаты
+  suffix: Renegades # LuaM: Ренегаты > Renegades
   description: Is it legal?
   components:
   - type: Sprite
