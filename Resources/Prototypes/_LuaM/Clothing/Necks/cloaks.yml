@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlueStar
-  name: Плащ голубой звезды.
-  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  name: the cloak of the Blue Star
+  description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
   components:
   - type: Sprite
     sprite: _LuaM/Clothing/Necks/AkiPlash/AkiPlash-base.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlueStarRed
-  name: Плащ багровой звезды.
-  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  name: the сloak of the Crimson Star.
+  description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
   components:
   - type: Sprite
     sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-red.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlueStarHoscloack
-  name: Наплечный Плащ Голубой Звезды.
-  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  name: shoulder cloak of the Blue Star.
+  description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
   components:
   - type: Sprite
     sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-hoscloakforma.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlueStarBlack
-  name: Плащ тёмной звезды.
-  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  name: the cloak of the Dark Star.
+  description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
   components:
   - type: Sprite
     sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-black.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlueStarWhite
-  name: Плащ полярной звезды.
-  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  name: cape of the Polar Star.
+  description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
   components:
   - type: Sprite
     sprite:  _LuaM/Clothing/Necks/AkiPlash/Akiplash-white.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlueStarPROBA
-  name: Плащ голубой звезды.
-  description: Тёплый уютный плащ что имеет внутри шерстяной слой что укрывает от холода. На спине же красовалась эмблема в виде четырёх-лучевой звезды.
+  name: the cloak of the Blue Star
+  description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
   suffix: Проба
   components:
   - type: Sprite
@@ -100,8 +100,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBlueStar
   categories: [ HideSpawnMenu ]
-  name: Капюшон Синей Звезды
-  description: Достаточно тёплый капюшон что прикрывает ваш взгляд..но в полне даёт видеть.
+  name: Blue Star Hood
+  description: The hood is warm enough to cover your eyes, but it still allows you to see clearly.
   components:
   - type: Sprite
     sprite:  _LuaM/Clothing/Necks/AkiPlash/AkiPlash-helmet.rsi
