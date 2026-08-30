@@ -80,7 +80,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckMantleRenegade
   name: renegade's mantle
-  suffix: Ренегаты
+  suffix: Renegades # LuaM: Ренегаты > Renegades
   description: Is it legal?
   components:
   - type: Sprite
