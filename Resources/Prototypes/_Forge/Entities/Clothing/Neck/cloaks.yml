@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakTTIParamedicAlt
-  name: TTI Paramedic's Cape # LuaM: Плащ Парамедика TTI > TTI Paramedic's Cape
-  description: A cozy cloak for conducting rescue operations. It definitely won’t give away your location with a bunch of strobe lights. # LuaM: Уютный плащ для проведения спасательных операций. Точно не демаскирует вас кучей стробоскопов. > A cozy cloak for conducting rescue operations. It definitely won’t give away your location with a bunch of strobe lights.
+  name: TTI Paramedic's Cape
+  description: A cozy cloak for conducting rescue operations. It definitely won’t give away your location with a bunch of strobe lights.
   components:
   - type: Item
     size: Small
@@ -41,7 +41,7 @@
   id: ClothingNeckCloakEmpirePreafectDiplomacy
   name: lord-preafect cloak
   description: A lord's luxurious cloak symbolizing his allegiance to the Imperial Diplomatic Corps.
-  suffix: Empire
+#  suffix: Empire # Commented by LuaM
   components:
   - type: Sprite
     sprite: _Corvax/Forge/Clothing/Neck/Cloaks/Empire/preafect_d.rsi
@@ -51,7 +51,7 @@
   id: ClothingNeckCloakEmpirePreafectViolet
   name: lord-preafect cloak
   description: A lord's luxurious cloak symbolizing his devotion to the church.
-  suffix: Empire
+#  suffix: Empire # Commented by LuaM
   components:
   - type: Sprite
     sprite: _Corvax/Forge/Clothing/Neck/Cloaks/Empire/preafect_v.rsi
@@ -61,7 +61,7 @@
   id: ClothingNeckCloakEmpirePreafectOrange
   name: lord-preafect cloak
   description: A lord's luxurious cloak, signifying his allegiance to the Imperial military forces.
-  suffix: Empire
+#  suffix: Empire # Commented by LuaM
   components:
   - type: Sprite
     sprite: _Corvax/Forge/Clothing/Neck/Cloaks/Empire/preafect_o.rsi
@@ -71,7 +71,7 @@
   id: ClothingNeckCloakEmpirePreafect
   name: lord-preafect cloak
   description: A lord's luxurious cloak, indicating his allegiance to aristocratic circles.
-  suffix: Empire
+#  suffix: Empire # Commented by LuaM
   components:
   - type: Sprite
     sprite: _Corvax/Forge/Clothing/Neck/Cloaks/Empire/preafect.rsi
@@ -80,7 +80,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckMantleRenegade
   name: renegade's mantle
-  suffix: Renegades # LuaM: Ренегаты > Renegades
+#  suffix: Ренегаты # Commented by LuaM
   description: Is it legal?
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakRenegade
   name: renegade cloak
-  suffix: Renegades # LuaM: Ренегаты > Renegades
+#  suffix: Ренегаты # Commented by LuaM
   description: Is it legal?
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakRenegadeCaptain
   name: renegade captain cloak
-  suffix: Renegades # LuaM: Ренегаты > Renegades
+#  suffix: Renegades # Commented by LuaM
   description: Is it legal?
   components:
   - type: Sprite

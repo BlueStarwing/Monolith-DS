@@ -2,7 +2,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakRenegadePoncho
   name: renegade poncho
-  suffix: Ренегаты
+#  suffix: Ренегаты # Commented by LuaM
   description: Is it legal?
   components:
   - type: Sprite
@@ -11,8 +11,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakUllmanPoncho
-  name: Пончо U.I
-  description: Тёплое и уютное пончо производства Уллман Индузтриз что согреет даже самое холодное сердце в космосе
+  name: U.I. Poncho
+  description: A warm and cozy poncho from Ullman Industries that can warm even the coldest heart in space.
   components:
   - type: Sprite
     sprite: _Corvax/Forge/Clothing/Neck/Poncho/ui.rsi
