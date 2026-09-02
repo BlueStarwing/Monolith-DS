@@ -79,7 +79,6 @@
   suffix: Admem
   name: the cloak of the Blue Star
   description: A warm, cozy cloak that has a woolen layer inside to shield against the cold. On the back, however, an emblem in the shape of a four-pointed star was displayed.
-  suffix: Проба
   components:
   - type: Sprite
     sprite:  _LuaM/Clothing/Necks/AkiPlash/AkiPlash-base.rsi
