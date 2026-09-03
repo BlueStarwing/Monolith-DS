@@ -4,7 +4,7 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/03/2026 15:15:01
+  time: 09/03/2026 17:56:46
   entityCount: 2577
 maps: []
 grids:
@@ -7732,19 +7732,8 @@ entities:
   - uid: 1779
     components:
     - type: Transform
-      pos: 9.5,-8.5
+      pos: 8.5,-8.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - invalid
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
   - uid: 2151
     components:
     - type: Transform
