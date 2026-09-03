@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/25/2026 17:01:33
-  entityCount: 4964
+  time: 09/03/2026 03:54:12
+  entityCount: 4969
 maps: []
 grids:
 - 1
@@ -182,10 +182,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Smoke: []
-        Kudzu: []
-        Puddle: []
         MetalFoam: []
+        Puddle: []
+        Kudzu: []
+        Smoke: []
     - type: Shuttle
       dampingModifier: 2.5
       bodyModifier: 2.5
@@ -4478,7 +4478,9 @@ entities:
           2,-1:
             0: 30471
           2,4:
-            0: 65295
+            0: 62735
+            3: 512
+            4: 2048
           3,0:
             0: 4096
             2: 160
@@ -4515,7 +4517,7 @@ entities:
             0: 8191
           -1,-1:
             0: 65024
-            3: 6
+            5: 6
           1,-4:
             0: 49147
           1,-3:
@@ -4627,14 +4629,14 @@ entities:
           -2,4:
             2: 9804
             0: 37136
-            4: 16384
+            6: 16384
           -1,4:
             0: 7423
           0,5:
             0: 30591
           -1,5:
             0: 52431
-            5: 16
+            7: 16
             2: 4096
           0,6:
             0: 51
@@ -4977,6 +4979,16 @@ entities:
         - volume: 2500
           immutable: True
           moles: {}
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+            Oxygen: 20.078888
+            Nitrogen: 75.53487
+        - volume: 2500
+          temperature: 293.15
+          moles:
+            Oxygen: 21.6852
+            Nitrogen: 81.57766
         - volume: 2500
           temperature: 293.15
           moles:
@@ -5651,25 +5663,27 @@ entities:
     - type: Transform
       pos: 7.5,10.5
       parent: 1
+  - uid: 2798
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,11.5
+      parent: 1
+  - uid: 3487
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,10.5
+      parent: 1
   - uid: 4836
     components:
     - type: Transform
       pos: -9.5,7.5
       parent: 1
-  - uid: 4837
-    components:
-    - type: Transform
-      pos: -6.5,10.5
-      parent: 1
   - uid: 4845
     components:
     - type: Transform
       pos: -10.5,7.5
-      parent: 1
-  - uid: 4872
-    components:
-    - type: Transform
-      pos: -6.5,11.5
       parent: 1
 - proto: AirlockMedicalGlassLocked
   entities:
@@ -7015,6 +7029,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: 3.5,-3.5
       parent: 1
+- proto: Autolathe
+  entities:
+  - uid: 4837
+    components:
+    - type: Transform
+      pos: 16.5,31.5
+      parent: 1
 - proto: BannerMedical
   entities:
   - uid: 323
@@ -7502,6 +7523,15 @@ entities:
     - type: Transform
       pos: -8.5,19.5
       parent: 1
+- proto: BluespaceBeaker
+  entities:
+  - uid: 4969
+    components:
+    - type: Transform
+      parent: 4968
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: BookBartendersManual
   entities:
   - uid: 395
@@ -11603,6 +11633,14 @@ entities:
     - type: Transform
       pos: 18.473862,23.496845
       parent: 1
+- proto: CleanerDispenser
+  entities:
+  - uid: 4966
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 12.5,-12.5
+      parent: 1
 - proto: CloningPod
   entities:
   - uid: 1169
@@ -15183,6 +15221,14 @@ entities:
     components:
     - type: Transform
       pos: -8.5,-11.5
+      parent: 1
+- proto: FuelDispenser
+  entities:
+  - uid: 4965
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 10.5,17.5
       parent: 1
 - proto: GasFilterNitrogenOnFlipped
   entities:
@@ -24473,8 +24519,8 @@ entities:
         immutable: False
         temperature: 293.14923
         moles:
-          Oxygen: 1.7459903
-          Nitrogen: 6.568249
+          Oxygen: 1.8856695
+          Nitrogen: 7.0937095
     - type: ContainerContainer
       containers:
         entity_storage: !type:Container
@@ -24555,6 +24601,33 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Static
+- proto: LockerWallColorChemistryFilled
+  entities:
+  - uid: 4968
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,17.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 4969
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+          Oxygen: 1.7459903
+          Nitrogen: 6.568249
 - proto: MachineCentrifuge
   entities:
   - uid: 2782
@@ -24642,11 +24715,6 @@ entities:
     components:
     - type: Transform
       pos: 17.5,31.5
-      parent: 1
-  - uid: 2798
-    components:
-    - type: Transform
-      pos: 16.5,31.5
       parent: 1
 - proto: MachineMedicalBountyRedemption
   entities:
@@ -24869,7 +24937,7 @@ entities:
     paused: true
     components:
     - type: Transform
-      parent: 3487
+      parent: 4872
     - type: NetworkConfigurator
       lastUseAttempt: -19895.7134376
     - type: EmitSoundOnCollide
@@ -28826,7 +28894,7 @@ entities:
     paused: true
     components:
     - type: Transform
-      parent: 3487
+      parent: 4872
     - type: MeleeWeapon
       nextAttack: -6.1666597
     - type: RandomSprite
@@ -28935,40 +29003,40 @@ entities:
       parent: 1
 - proto: ShelfChemistryChemistrySecure
   entities:
-  - uid: 3487
+  - uid: 4872
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
+      rot: 1.5707963267948966 rad
       pos: 7.5,20.5
       parent: 1
     - type: Storage
       storedItems:
-        3488:
+        3489:
           position: 0,0
           _rotation: South
-        3489:
+        3488:
           position: 2,0
           _rotation: South
         3490:
           position: 4,0
           _rotation: South
-        3491:
+        3492:
           position: 0,3
           _rotation: South
-        3492:
+        3491:
           position: 1,3
-          _rotation: East
+          _rotation: South
     - type: ContainerContainer
       containers:
         storagebase: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 3488
           - 3489
+          - 3488
           - 3490
-          - 3491
           - 3492
+          - 3491
 - proto: ShieldGeneratorPOI
   entities:
   - uid: 3493
@@ -28977,7 +29045,6 @@ entities:
       pos: 0.5,4.5
       parent: 1
     - type: ShipShieldEmitter
-      damageLimit: 2500000
       healPerSecond: 10000
     - type: PointLight
       falloff: 6
@@ -29197,6 +29264,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 16.5,-12.5
+      parent: 1
+  - uid: 4967
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -14.5,29.5
       parent: 1
 - proto: SinkStemlessWater
   entities:
@@ -30812,19 +30885,19 @@ entities:
   - uid: 3488
     components:
     - type: Transform
-      parent: 3487
+      parent: 4872
     - type: Physics
       canCollide: False
   - uid: 3489
     components:
     - type: Transform
-      parent: 3487
+      parent: 4872
     - type: Physics
       canCollide: False
   - uid: 3490
     components:
     - type: Transform
-      parent: 3487
+      parent: 4872
     - type: Physics
       canCollide: False
 - proto: VendingMachineRestockHotDrinks
