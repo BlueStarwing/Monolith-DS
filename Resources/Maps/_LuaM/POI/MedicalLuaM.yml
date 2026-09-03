@@ -4,7 +4,7 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/03/2026 15:12:31
+  time: 09/03/2026 17:52:19
   entityCount: 4972
 maps: []
 grids:
@@ -5210,6 +5210,13 @@ entities:
       - 4955
       - 4961
       - 4962
+- proto: Airlock
+  entities:
+  - uid: 64
+    components:
+    - type: Transform
+      pos: 13.5,-8.5
+      parent: 1
 - proto: AirlockCommandLocked
   entities:
   - uid: 2
@@ -5621,13 +5628,6 @@ entities:
     components:
     - type: Transform
       pos: -15.5,28.5
-      parent: 1
-- proto: AirlockJanitorLocked
-  entities:
-  - uid: 64
-    components:
-    - type: Transform
-      pos: 13.5,-8.5
       parent: 1
 - proto: AirlockMedical
   entities:
